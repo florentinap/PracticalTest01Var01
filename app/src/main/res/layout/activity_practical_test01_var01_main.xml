@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="practicaltest01var01.eim.systems.cs.pub.ro.practicaltest01var01.PracticalTest01Var01MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:rowCount="3"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/north"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NORTH" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/east"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EAST" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/west"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WEST" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/south"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SOUTH" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button"
+                android:visibility="invisible" />
+
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/outputText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/navigate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NAVIGATE TO SECONDARY ACTIVITY" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
